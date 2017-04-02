@@ -17,7 +17,7 @@ Update remote:				git push -u origin master
 								upstream (traking) reference:  -u
 								force:	-f (--force)
 								
-Commit a folder:			git add . folderTest
+Commit a modified folder:	git add . folderTest
 							git commit -m 'folder commited'
 							git push origin
 Check the status of the folders:	git status
