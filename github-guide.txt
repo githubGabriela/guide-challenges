@@ -1,0 +1,29 @@
+Github command steps:
+
+Create an empty folder:	git init
+Add a file:				git add README.md
+Commit:					git commit -m 'first commit'
+							message: -m (--message)	
+ 							branch: -b   (--branch)
+
+Manage the set of tracked repositorier	git remote
+Show the list of the current remotes 	git remote
+							add: 	git remote add origin https://github.com/githubGabriela/CSS-challenges.git (add git to origin)
+							remove:	git rm <name>
+							rename:	git remote rename <old>  <new>
+							
+Create and update remotes/branches:  git fetch <name>/<branch>
+Update remote:				git push -u origin master	
+								upstream (traking) reference:  -u
+								force:	-f (--force)
+								
+Commit a folder:			git add . folderTest
+							git commit -m 'folder commited'
+							git push origin
+Check the status of the folders:	git status
+
+
+								
+
+							
+							
